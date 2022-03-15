@@ -9,5 +9,5 @@ to run the project add .env folder in root and following entry
 
 Then execute
 
-npm install
-npm run dev
+    npm install
+    npm run dev
