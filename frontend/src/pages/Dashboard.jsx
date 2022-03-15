@@ -4,7 +4,7 @@ import { useNavigate } from "react-router-dom";
 import GoalForm from "../components/GoalForm";
 import GoalItem from "../components/GoalItem";
 import Spinner from "../components/Spinner";
-import { getGoals, reset } from "../features/goals/goalSlice";
+import { getGoals, reset } from "../store/features/goals/goalSlice";
 
 function Dashboard() {
   const navigate = useNavigate();

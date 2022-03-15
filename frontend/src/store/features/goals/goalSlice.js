@@ -66,7 +66,7 @@ export const deleteGoal = createAsyncThunk(
   }
 );
 
-export const goalSlice = createSlice({
+const goalSlice = createSlice({
   name: "goal",
   initialState,
   reducers: {
